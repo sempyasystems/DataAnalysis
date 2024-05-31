@@ -19,7 +19,6 @@ Welcome to the Data Analysis Tutorial repository! This repository contains a com
 
 The repository is organized as follows:
 
-
 Each directory contains tutorials and resources relevant to its topic. Below is a brief description of each section:
 
 1. **Excel Basics**
