@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Tips and Tricks</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const buttons = document.querySelectorAll('.show-example');
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const example = button.nextElementSibling;
+                    example.style.display = example.style.display === 'none' ? 'block' : 'none';
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tips.html">Tips & Tricks</a></li>
+            <li><a href="01_Excel_Basics/">Excel Basics</a></li>
+            <!-- Add other sections as needed -->
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Cool Tips and Tricks</h1>
+
+        <div class="tip">
+            <h2>Tip 1: Freeze Panes</h2>
+            <p>Freezing panes allows you to keep certain rows or columns visible while you scroll through the rest of the worksheet.</p>
+            <button class="show-example">Show Example</button>
+            <div class="example" style="display: none;">
+                <h3>Example:</h3>
+                <p>To freeze the top row, go to <strong>View &gt; Freeze Panes &gt; Freeze Top Row</strong>. To freeze the first column, go to <strong>View &gt; Freeze Panes &gt; Freeze First Column</strong>.</p>
+            </div>
+        </div>
+
+        <div class="tip">
+            <h2>Tip 2: VLOOKUP</h2>
+            <p>The VLOOKUP function allows you to search for a value in the first column of a table and return a value in the same row from another column.</p>
+            <button class="show-example">Show Example</button>
+            <div class="example" style="display: none;">
+                <h3>Example:</h3>
+                <p>Formula: <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
+                <p>If you have a table with employee IDs in the first column and names in the second, you can find the name of the employee with ID 123 using: <code>=VLOOKUP(123, A2:B10, 2, FALSE)</code></p>
+            </div>
+        </div>
+
+        <div class="tip">
+            <h2>Tip 3: Conditional Formatting</h2>
+            <p>Conditional formatting allows you to automatically apply formatting such as colors, icons, and data bars to one or more cells based on the cell value.</p>
+            <button class="show-example">Show Example</button>
+            <div class="example" style="display: none;">
+                <h3>Example:</h3>
+                <p>To highlight cells with values greater than 100, select the range and go to <strong>Home &gt; Conditional Formatting &gt; Highlight Cells Rules &gt; Greater Than</strong>, then enter "100" and choose a format.</p>
+            </div>
+        </div>
+
+        <div class="tip">
+            <h2>Tip 4: Pivot Tables</h2>
+            <p>PivotTables allow you to quickly summarize large amounts of data. You can reorganize and summarize data without altering the original data set.</p>
+            <button class="show-example">Show Example</button>
+            <div class="example" style="display: none;">
+                <h3>Example:</h3>
+                <p>Select your data range, then go to <strong>Insert &gt; PivotTable</strong>. In the Create PivotTable dialog box, choose where you want the PivotTable report to be placed. Drag fields to the Rows, Columns, and Values areas to build your PivotTable.</p>
+            </div>
+        </div>
+
+        <div class="tip">
+            <h2>Tip 5: Flash Fill</h2>
+            <p>Flash Fill automatically fills your data when it senses a pattern. It’s useful for formatting names, phone numbers, and other consistent data formats.</p>
+            <button class="show-example">Show Example</button>
+            <div class="example" style="display: none;">
+                <h3>Example:</h3>
+                <p>If you have a list of full names in one column and you want to split them into first and last names in separate columns, start typing the first name in the adjacent column. Excel will detect the pattern and suggest the rest. Press <code>Enter</code> to accept the suggestions.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
