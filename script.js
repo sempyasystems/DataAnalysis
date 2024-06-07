@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         link.addEventListener('click', function (e) { 
 
-            // Only apply smooth scroll for links with a hash 
-
             if (this.hash !== '') { 
 
                 e.preventDefault(); 
@@ -48,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const sections = document.querySelectorAll('section'); 
 
-    const navListItems = document.querySelectorAll('nav ul li'); 
+    const navListItems = document.querySelectorAll('nav ul li a'); 
 
   
 
@@ -76,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             li.classList.remove('active'); 
 
-            if (li.querySelector('a').hash.substring(1) === current) { 
+            if (li.hash.substring(1) === current) { 
 
                 li.classList.add('active'); 
 
@@ -85,10 +83,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }); 
 
     }); 
-
-  
-
-    // More interactive features can be added here 
 
 }); 
 

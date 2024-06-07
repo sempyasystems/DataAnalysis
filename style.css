@@ -30,6 +30,14 @@ nav {
 
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
 
+    position: sticky; 
+
+    top: 0; 
+
+    width: 100%; 
+
+    z-index: 1000; 
+
 } 
 
   
@@ -54,6 +62,8 @@ nav ul li {
 
     margin: 0 1rem; 
 
+    position: relative; 
+
 } 
 
   
@@ -66,15 +76,25 @@ nav ul li a {
 
     font-weight: bold; 
 
-    transition: color 0.3s ease; 
+    padding: 0.5rem 1rem; 
+
+    transition: color 0.3s ease, background-color 0.3s ease; 
+
+    display: block; 
 
 } 
 
   
 
-nav ul li a:hover { 
+nav ul li a:hover, 
 
-    color: #d1ecf1; 
+nav ul li a.active { 
+
+    color: #007BFF; 
+
+    background-color: white; 
+
+    border-radius: 5px; 
 
 } 
 
