@@ -21,6 +21,11 @@ Welcome to the Data Analysis Tutorial repository! This repository contains a com
         3. [Advanced Charting Techniques](01_Excel/02_Intermediate/03_Advanced_Charting.md)
         4. [Conditional Formatting](01_Excel/02_Intermediate/04_Conditional_Formatting.md)
         5. [Data Validation](01_Excel/02_Intermediate/05_Data_Validation.md)
+        6. [Creating an Invoice](01_Excel/02_Intermediate/06_Creating_an_Invoice.md)
+        7. [Case Scenarios](01_Excel/02_Intermediate/07_Case_Scenarios.md)
+            1. [Budget Tracking](01_Excel/02_Intermediate/07_Case_Scenarios/01_Budget_Tracking.md)
+            2. [Sales Reporting](01_Excel/02_Intermediate/07_Case_Scenarios/02_Sales_Reporting.md)
+            3. [Inventory Management](01_Excel/02_Intermediate/07_Case_Scenarios/03_Inventory_Management.md)
     3. [Excel Advanced](01_Excel/03_Advanced/README.md)
         1. [Macros](01_Excel/03_Advanced/01_Macros.md)
         2. [VBA Programming](01_Excel/03_Advanced/02_VBA_Programming.md)
@@ -44,6 +49,19 @@ Welcome to the Data Analysis Tutorial repository! This repository contains a com
     8. [Error Handling](02_Python_Basics/08_Error_Handling.md)
     9. [Object-Oriented Programming](02_Python_Basics/09_Object_Oriented_Programming.md)
 3. [Pandas](03_Pandas/README.md)
+    1. [Getting Started](03_Pandas/01_Getting_Started.md)
+    2. [Installing Jupyter Notebook and Pandas](03_Pandas/02_Installing_Jupyter_Pandas.md)
+    3. [Introduction to Jupyter Notebook](03_Pandas/03_Introduction_to_Jupyter_Notebook.md)
+    4. [Pandas Basics](03_Pandas/04_Pandas_Basics.md)
+        1. [Series and DataFrame](03_Pandas/04_Pandas_Basics/01_Series_and_DataFrame.md)
+        2. [Reading Data](03_Pandas/04_Pandas_Basics/02_Reading_Data.md)
+        3. [Data Inspection](03_Pandas/04_Pandas_Basics/03_Data_Inspection.md)
+        4. [Data Cleaning](03_Pandas/04_Pandas_Basics/04_Data_Cleaning.md)
+        5. [Data Manipulation](03_Pandas/04_Pandas_Basics/05_Data_Manipulation.md)
+        6. [Data Aggregation and Grouping](03_Pandas/04_Pandas_Basics/06_Data_Aggregation_and_Grouping.md)
+        7. [Data Visualization with Pandas](03_Pandas/04_Pandas_Basics/07_Data_Visualization_with_Pandas.md)
+    5. [Case Studies and Examples](03_Pandas/05_Case_Studies_and_Examples.md)
+    6. [Additional Resources](03_Pandas/06_Additional_Resources.md)
 4. [Data Visualization](04_Data_Visualization/README.md)
 5. [Machine Learning](05_Machine_Learning/README.md)
 6. [Deep Learning](06_Deep_Learning/README.md)
@@ -75,6 +93,11 @@ Each directory contains tutorials and resources relevant to its topic. Below is 
             - Advanced Charting Techniques
             - Conditional Formatting
             - Data Validation
+            - Creating an Invoice
+            - Case Scenarios
+                - Budget Tracking
+                - Sales Reporting
+                - Inventory Management
         3. **Excel Advanced**
             - Macros
             - VBA Programming
@@ -101,6 +124,20 @@ Each directory contains tutorials and resources relevant to its topic. Below is 
         9. Object-Oriented Programming
 3. **Pandas**
     - Tutorials on using the Pandas library for data manipulation and analysis.
+    - **Subtopics include:**
+        1. Getting Started
+        2. Installing Jupyter Notebook and Pandas
+        3. Introduction to Jupyter Notebook
+        4. Pandas Basics
+            - Series and DataFrame
+            - Reading Data
+            - Data Inspection
+            - Data Cleaning
+            - Data Manipulation
+            - Data Aggregation and Grouping
+            - Data Visualization with Pandas
+        5. Case Studies and Examples
+        6. Additional Resources
 4. **Data Visualization**
     - Techniques for visualizing data using various Python libraries.
 5. **Machine Learning**
