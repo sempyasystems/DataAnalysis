@@ -1,0 +1,77 @@
+# Introduction to Pandas  
+
+  
+
+Welcome to the Pandas tutorial! This tutorial is designed to help you get started with the Pandas library for data manipulation and analysis using Anaconda and Jupyter Notebook. 
+
+  
+
+## Table of Contents 
+
+  
+
+1. [Getting Started](#getting-started) 
+
+2. [Installing Anaconda](#installing-anaconda) 
+
+3. [Installing Pandas](#installing-pandas) 
+
+4. [Starting Jupyter Notebook](#starting-jupyter-notebook) 
+
+5. [Introduction to Jupyter Notebook](#introduction-to-jupyter-notebook) 
+
+6. [Pandas Basics](#pandas-basics) 
+
+    1. [Series and DataFrame](#series-and-dataframe) 
+
+    2. [Reading Data](#reading-data) 
+
+    3. [Data Inspection](#data-inspection) 
+
+    4. [Data Cleaning](#data-cleaning) 
+
+    5. [Data Manipulation](#data-manipulation) 
+
+    6. [Data Aggregation and Grouping](#data-aggregation-and-grouping) 
+
+    7. [Data Visualization with Pandas](#data-visualization-with-pandas) 
+
+7. [Case Studies and Examples](#case-studies-and-examples) 
+
+8. [Additional Resources](#additional-resources) 
+
+  
+
+## Getting Started 
+
+  
+
+This tutorial assumes you have Anaconda installed on your system. If not, follow the instructions in the next section to install Anaconda. 
+
+  
+
+## Installing Anaconda 
+
+  
+
+Anaconda is a distribution of Python and R programming languages for scientific computing, that aims to simplify package management and deployment. You can download and install Anaconda from the [official website](https://www.anaconda.com/products/distribution). 
+
+  
+
+Follow the installation instructions for your operating system. 
+
+  
+
+## Installing Pandas 
+
+  
+
+Once Anaconda is installed, you can easily install Pandas using the following command in your terminal or Anaconda prompt: 
+
+  
+
+```bash 
+
+conda install pandas 
+
+ 
